@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <div class="sphere"></div>
+    <div class="sphere"></div>
+    <div class="sphere"></div>
+    <div class="sphere"></div>
+    <div class="sphere"></div>
+    <div class="sphere"></div>
+    <div class="sphere"></div>
+
+
+    <h1>High Seas Alarm App</h1>
+    <p>Note: Hover on Input box Use the Up & Down Button to set Alarm Time then Click on add alarm now toggle the button to make it active.</p>
+    
+    <div class="container">
+        <h3>WaveTime - Don't Lose Your Time</h3>
+        <div class="timer">00:00:00</div>
+        <div class="content">
+        <div class="inputs">
+            
+    <input type="number" id="hourInput" placeholder="00" min="1" max="23"  required />
+
+            <input type="number" id="minuteInput" placeholder="00" min= "0" max ="59" required />
+        </div>
+        <button id="set"> Add Alarm</button>
+        <div class="activeAlarms"></div>
+    </div>
+    </div>
+
+<p class="credit">Made with ❤️ By @Techgenius</p>
+<p>All Right are Reserved by Highseas</p>
+
+    <script src="script.js"></script>
+</body>
+</html>
