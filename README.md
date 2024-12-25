@@ -1,4 +1,7 @@
 # HighSeas-alarm-app.github.io
+
+Disclaimer: This project is made by Tutorial and I add some features and change the user interface also take help of AI to solve some error only.
+
  
 The Alarm web App is a user-friendly application tha allows users to manage alarms with ease.
 
